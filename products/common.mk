@@ -3,6 +3,12 @@ PRODUCT_NAME := jalapeno
 PRODUCT_BRAND := jalapeno
 PRODUCT_DEVICE := generic
 
+# Custom CM packages
+#    DSPManager
+PRODUCT_PACKAGES += \
+    libcyanogen-dsp \
+    audio_effects.conf
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/jalapeno/overlay/common
 
@@ -23,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/jalapeno/proprietary/common/app/CalendarProvider.apk:system/app/CalendarProvider.apk \
     vendor/jalapeno/proprietary/common/app/Chrome.apk:system/app/Chrome.apk \
     vendor/jalapeno/proprietary/common/app/DefaultContainerService.apk:system/app/DefaultContainerService.apk \
+    vendor/jalapeno/proprietary/common/app/DSPManager.apk:system/app/DSPManager.apk \
     vendor/jalapeno/proprietary/common/app/FaceLock.apk:system/app/FaceLock.apk \
     vendor/jalapeno/proprietary/common/app/Gallery2.apk:system/app/Gallery2.apk \
     vendor/jalapeno/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
@@ -65,7 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/jalapeno/proprietary/common/lib/libvideochat_stabilize.so:system/lib/libvideochat_stabilize.so \
     vendor/jalapeno/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
     vendor/jalapeno/proprietary/common/lib/libvorbisencoder.so:system/lib/libvorbisencoder.so \
-    vendor/jalapeno/proprietary/common/xbin/busybox:system/xbin/busybox \
     vendor/jalapeno/proprietary/common/xbin/su:system/xbin/su \
     vendor/jalapeno/proprietary/common/xbin/sysro:system/xbin/sysro \
     vendor/jalapeno/proprietary/common/xbin/sysrw:system/xbin/sysrw
