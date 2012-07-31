@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/jalapeno/proprietary/common/app/SharedStorageBackup.apk:system/app/SharedStorageBackup.apk \
     vendor/jalapeno/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/jalapeno/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
-    vendor/jalapeno/proprietary/common/app/SystemUI.apk:system/app/SystemUI.apk \
     vendor/jalapeno/proprietary/common/app/Talk.apk:system/app/Talk.apk \
     vendor/jalapeno/proprietary/common/app/Velvet.apk:system/app/Velvet.apk \
     vendor/jalapeno/proprietary/common/app/VisualizationWallpapers.apk:system/app/VisualizationWallpapers.apk \
