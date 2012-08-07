@@ -11,12 +11,13 @@ PRODUCT_DEVICE := toro
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_FINGERPRINT=google/mysid/toro:4.1.1/JRO03C/336647:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.1.1 JRO03C 336647 release-keys" BUILD_NUMBER=336647
+PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_FINGERPRINT=google/mysid/toro:4.1.1/JRO03H/336647:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.1.1 JRO03H 336647 release-keys" BUILD_NUMBER=336647
 
 # Inherit common build.prop overrides
 -include vendor/jalapeno/products/common_versions.mk
 
-PRODUCT_PACKAGES +=
+PRODUCT_PACKAGES += \
+CellBroadcastReceiver
 
 # Extra toro overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/jalapeno/overlay/toro
