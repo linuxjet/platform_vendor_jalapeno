@@ -25,8 +25,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
     vendor/jalapeno/proprietary/common/app/BackupRestoreConfirmation.apk:system/app/BackupRestoreConfirmation.apk \
-    vendor/jalapeno/proprietary/common/app/Calendar.apk:system/app/Calendar.apk \
-    vendor/jalapeno/proprietary/common/app/CalendarProvider.apk:system/app/CalendarProvider.apk \
     vendor/jalapeno/proprietary/common/app/Chrome.apk:system/app/Chrome.apk \
     vendor/jalapeno/proprietary/common/app/DefaultContainerService.apk:system/app/DefaultContainerService.apk \
     vendor/jalapeno/proprietary/common/app/DSPManager.apk:system/app/DSPManager.apk \
@@ -36,6 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/jalapeno/proprietary/common/app/Gmail.apk:system/app/Gmail.apk \
     vendor/jalapeno/proprietary/common/app/GmsCore.apk:system/app/GmsCore.apk \
     vendor/jalapeno/proprietary/common/app/GoogleBackupTransport.apk:system/app/GoogleBackupTransport.apk \
+    vendor/jalapeno/proprietary/common/app/GoogleCalendarSyncAdapter.apk:system/app/GoogleCalendarSyncAdapter.apk \
     vendor/jalapeno/proprietary/common/app/GoogleContactsSyncAdapter.apk:system/app/GoogleContactsSyncAdapter.apk \
     vendor/jalapeno/proprietary/common/app/GoogleEars.apk:system/app/GoogleEars.apk \
     vendor/jalapeno/proprietary/common/app/GoogleFeedback.apk:system/app/GoogleFeedback.apk \
@@ -56,11 +55,12 @@ PRODUCT_COPY_FILES += \
     vendor/jalapeno/proprietary/common/app/Street.apk:system/app/Street.apk \
     vendor/jalapeno/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/jalapeno/proprietary/common/app/Talk.apk:system/app/Talk.apk \
-    vendor/jalapeno/proprietary/common/app/Velvet.apk:system/app/Velvet.apk \
     vendor/jalapeno/proprietary/common/app/VisualizationWallpapers.apk:system/app/VisualizationWallpapers.apk \
     vendor/jalapeno/proprietary/common/app/VpnDialogs.apk:system/app/VpnDialogs.apk \
     vendor/jalapeno/proprietary/common/app/Wallet.apk:system/app/Wallet.apk \
     vendor/jalapeno/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
+    vendor/jalapeno/proprietary/common/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
+    vendor/jalapeno/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
     vendor/jalapeno/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
     vendor/jalapeno/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/jalapeno/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \

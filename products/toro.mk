@@ -40,4 +40,6 @@ PRODUCT_COPY_FILES +=  \
 # Inherit drm blobs
 -include vendor/jalapeno/products/common_drm_phone.mk
 
+# Inherit googlenow blobs
+-include vendor/jalapeno/products/common_googlenow.mk
 
