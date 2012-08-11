@@ -58,6 +58,10 @@ PRODUCT_COPY_FILES += \
     vendor/jalapeno/proprietary/common/app/VisualizationWallpapers.apk:system/app/VisualizationWallpapers.apk \
     vendor/jalapeno/proprietary/common/app/VpnDialogs.apk:system/app/VpnDialogs.apk \
     vendor/jalapeno/proprietary/common/app/Wallet.apk:system/app/Wallet.apk \
+    vendor/jalapeno/proprietary/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
+    vendor/jalapeno/proprietary/common/etc/permissions/features.xml:system/etc/permissions/features.xml \
+    vendor/jalapeno/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
+    vendor/jalapeno/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/jalapeno/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/jalapeno/proprietary/common/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
     vendor/jalapeno/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
