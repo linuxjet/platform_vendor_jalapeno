@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/jalapeno/proprietary/common/app/Talk.apk:system/app/Talk.apk \
     vendor/jalapeno/proprietary/common/app/VisualizationWallpapers.apk:system/app/VisualizationWallpapers.apk \
     vendor/jalapeno/proprietary/common/app/VpnDialogs.apk:system/app/VpnDialogs.apk \
-    vendor/jalapeno/proprietary/common/app/Wallet.apk:system/app/Wallet.apk \
     vendor/jalapeno/proprietary/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/jalapeno/proprietary/common/etc/permissions/features.xml:system/etc/permissions/features.xml \
     vendor/jalapeno/proprietary/common/etc/updatecmds/google_generic_update.txt:system/etc/updatecmds/google_generic_update.txt \
@@ -89,8 +88,7 @@ ifneq ($(filter jalapeno_toro,$(TARGET_PRODUCT)),)
 # Blobs common to all devices except emulator and tablets
 PRODUCT_COPY_FILES += \
     vendor/jalapeno/proprietary/common/app/CarHome.apk:system/app/CarHome.apk \
-    vendor/jalapeno/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
-    vendor/jalapeno/proprietary/common/app/SetupWizard.apk:system/app/SetupWizard.apk
+    vendor/jalapeno/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk
 endif
 
 # Enable SIP+VoIP on all targets

@@ -1,2 +1,3 @@
+add_lunch_combo jalapeno_grouper-user
 add_lunch_combo jalapeno_toro-user
 
