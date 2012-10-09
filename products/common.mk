@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
     vendor/jalapeno/proprietary/common/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/jalapeno/proprietary/common/lib/libflint_engine_jni_api.so:system/lib/libflint_engine_jni_api.so \
     vendor/jalapeno/proprietary/common/lib/libgcomm_jni.so:system/lib/libgcomm_jni.so \
-    vendor/jalapeno/proprietary/common/lib/libgoogle_recognizer_jni.so:system/lib/libgoogle_recognizer_jni.so \
+    vendor/jalapeno/proprietary/common/lib/libgoogle_recognizer_jni_l.so:system/lib/libgoogle_recognizer_jni_l.so \
     vendor/jalapeno/proprietary/common/lib/libjni_eglfence.so:system/lib/libjni_eglfence.so \
     vendor/jalapeno/proprietary/common/lib/libjni_mosaic.so:system/lib/libjni_mosaic.so \
     vendor/jalapeno/proprietary/common/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
